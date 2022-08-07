@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'iBook',
+    title: 'Empire-Burger',
     htmlAttrs: {
       lang: 'pt-BR',
     },
@@ -11,7 +11,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Uma nova maneira de ler livros online!',
+        content: 'Uma landing page para uma hamburgaria',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

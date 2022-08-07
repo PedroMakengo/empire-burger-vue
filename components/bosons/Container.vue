@@ -14,11 +14,11 @@
   }
 
   @include screen('medium') {
-    width: 85%;
+    width: 80%;
   }
 
   @include screen('large', 'infinity') {
-    width: 70%;
+    width: 60%;
   }
 }
 </style>

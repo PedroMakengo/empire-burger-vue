@@ -1,4 +1,18 @@
 $colors: (
+  brand-color: (
+    bg-beige: #fae2cb,
+    bg-red: (
+      base: #f43127,
+      darkest: #ef2116,
+    ),
+    bg-yellow: #f59a1b,
+    bg-brown: #3b200b,
+  ),
+  text-color: (
+    title-87: #34201f,
+    title-60: #4d5257,
+    title-38: #8b8f94,
+  ),
   light: (
     base: #f7f7f7,
     darkest: #f0f0f0,
