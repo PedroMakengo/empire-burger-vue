@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <h1>Footer</h1>
+  <div class="footer">
+    <Container>
+      <Logo />
+      <FooterLinks />
+    </Container>
   </div>
 </template>
 
