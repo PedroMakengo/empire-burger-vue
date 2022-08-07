@@ -29,8 +29,8 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .navegator {
   ul {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    gap: 1rem;
 
     li {
       a {

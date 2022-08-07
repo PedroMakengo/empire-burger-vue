@@ -18,7 +18,7 @@
   }
 
   @include screen('large', 'infinity') {
-    width: 60%;
+    width: 90%;
   }
 }
 </style>

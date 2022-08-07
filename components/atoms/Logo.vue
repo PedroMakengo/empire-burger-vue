@@ -8,7 +8,12 @@
 <style lang="scss" scoped>
 .logo {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 25px 1fr;
+  grid-gap: 0.5rem;
+
+  align-items: center;
+  justify-content: center;
+
   img {
     width: 100%;
   }
