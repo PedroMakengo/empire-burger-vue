@@ -1,11 +1,15 @@
 <template>
   <div class="footer">
     <Container>
-      <Logo />
-      <FooterLinks />
-      <SocialLinks />
+      <div>
+        <Logo />
+        <FooterLinks />
+        <SocialLinks />
+      </div>
+
+      <p><span>2022 © EmpireBurger.</span> Todos os direitos reservados.</p>
     </Container>
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
