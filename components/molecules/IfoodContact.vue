@@ -1,11 +1,6 @@
 <template>
   <div class="ifood-contact">
-    <NuxtLink to="/">
-      <img src="@/assets/img/ifood.svg" alt="Logo da Ifood" />
-    </NuxtLink>
-    <a href="/">
-      <img src="@/assets/img/instagram-brands.svg" alt="Nosso instagram" />
-    </a>
+    <SocialLinks />
     <button>
       <img src="@/assets/img/whatsapp-brands.svg" alt="Nosso whatsapp" />
       Contato

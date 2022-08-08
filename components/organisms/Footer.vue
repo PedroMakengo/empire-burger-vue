@@ -3,6 +3,7 @@
     <Container>
       <Logo />
       <FooterLinks />
+      <SocialLinks />
     </Container>
   </div>
 </template>
