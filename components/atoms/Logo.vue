@@ -50,11 +50,13 @@
 
   svg {
     width: 100%;
+    padding-bottom: 0.3rem;
   }
   h2 {
     font-weight: bold;
     text-transform: uppercase;
     color: rgba(29, 6, 5, 0.9);
+    /* padding-top: 0.5rem; */
     span {
       font-weight: 300;
     }

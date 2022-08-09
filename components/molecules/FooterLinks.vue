@@ -1,6 +1,6 @@
 <template>
   <nav class="footer-links">
-    <NuxtLink v-for="link of footerLinks" :key="link.id" to="/">
+    <NuxtLink v-for="link of footerLinks" :key="link.id" :to="link.to">
       {{ link.text }}
     </NuxtLink>
   </nav>
@@ -23,4 +23,11 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.footer-links {
+  a {
+    font-weight: 400;
+    color: white;
+  }
+}
+</style>
