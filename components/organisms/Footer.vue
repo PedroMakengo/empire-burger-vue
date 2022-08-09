@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
 .footer {
-  background: rgba(59, 32, 11, 0.05);
+  background: red;
   padding-block: 2rem;
   .container {
     height: 100%;
@@ -26,11 +26,12 @@
     justify-content: center;
 
     > p {
-      border-top: 0.3px solid #f3f3f3;
       padding-top: 2rem;
+      border-top: 0.3px solid #f3f3f3;
 
       text-align: center;
 
+      color: #f7f7f7;
       span {
         font-weight: bold;
       }
@@ -38,7 +39,7 @@
 
     .footer-items {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: 1fr 1fr 100px;
       padding-bottom: 2rem;
 
       .footer-links,
@@ -50,7 +51,17 @@
 
       .footer-links {
         display: flex;
+        gap: 2rem;
+      }
+
+      .social-links {
+        justify-content: flex-end;
         gap: 1rem;
+
+        svg path,
+        svg rect {
+          fill: #000;
+        }
       }
     }
   }

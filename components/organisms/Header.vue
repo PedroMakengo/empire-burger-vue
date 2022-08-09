@@ -16,8 +16,7 @@
   .container {
     height: 100%;
     display: grid;
-    grid-template-columns: 300px 1fr 300px;
-    justify-content: center;
+    grid-template-columns: 300px 1fr 1fr;
     align-items: center;
   }
 }

@@ -27,7 +27,7 @@ export default Vue.extend({
 .footer-links {
   a {
     font-weight: 400;
-    color: white;
+    color: #000;
   }
 }
 </style>

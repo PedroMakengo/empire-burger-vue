@@ -18,6 +18,7 @@ export default Vue.extend({})
 .ifood-contact {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 
   button {
     display: flex;

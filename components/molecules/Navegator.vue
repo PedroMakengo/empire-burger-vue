@@ -30,7 +30,7 @@ export default Vue.extend({
 .navegator {
   ul {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 
     li {
       a {
