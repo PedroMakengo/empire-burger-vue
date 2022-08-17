@@ -14,7 +14,6 @@
 
 <style lang="scss" scoped>
 .footer {
-  background: red;
   padding-block: 2rem;
   .container {
     height: 100%;

@@ -20,6 +20,22 @@ export default Vue.extend({})
   align-items: center;
   justify-content: flex-end;
 
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      content: '';
+
+      display: block;
+      width: 1px;
+      height: 3.2rem;
+      background: #b50b04;
+      margin-right: 5px;
+    }
+  }
+
   button {
     display: flex;
     align-items: center;
